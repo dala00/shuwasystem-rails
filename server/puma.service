@@ -1,0 +1,13 @@
+[Unit]
+Description=Puma HTTP Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/youruser/shuwasystem-rails
+Environment="RAILS_ENV=production"
+ExecStart=/usr/local/bin/puma -C /home/youruser/shuwasystem-rails/config/puma.rb
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
