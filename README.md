@@ -1,24 +1,19 @@
-# README
+# shuwasystem-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このリポジトリはHeroku以外のLinuxサーバーで利用するためのRuby on Rails用のサンプルアプリケーションです。
 
-Things you may want to cover:
+## 質問など
 
-* Ruby version
+質問、提案などはIssuesで行っていただく事ができます。困っているワードやエラーメッセージで検索していただくと過去の質問から解決方法を知ることができる場合がありますのでまずは検索を行ってみてください。見つからない場合はIssuesに書き込んでください。
 
-* System dependencies
+筆者も空いている時間でIssuesの確認を行うため、すぐには回答できない場合があります。ご了承ください。
 
-* Configuration
+もし質問などに回答できそうな方がいれば回答していただいて大丈夫です。
 
-* Database creation
+## 利用について
 
-* Database initialization
+このアプリケーションを改造したり利用される場合、cloneしてローカルのGitでコミット等を行ってもここにpushすることは出来ません。自分のアプリケーションとして利用したい場合はForkを行ったり、新たにGitHubにpushするなどを行ってください。
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[MIT license](https://opensource.org/licenses/MIT)
